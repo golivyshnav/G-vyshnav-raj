@@ -1,0 +1,103 @@
+{
+  "theme": "Light",
+  "archetype": "Swiss & High-Contrast (Light) blended with Luxury",
+  "brand": {
+    "name": "SOPHIE",
+    "aesthetic": "Minimalist luxury, Apple + Zara inspired UI, purely white background, high contrast black typography, sharp edges or very subtle rounding, lots of whitespace."
+  },
+  "colors": {
+    "background": "#FFFFFF",
+    "surface": "#FFFFFF",
+    "text_primary": "#111111",
+    "text_secondary": "#71717A",
+    "border": "#F3F4F6",
+    "primary": "#111111",
+    "primary_hover": "#333333",
+    "accent": "#000000",
+    "error": "#EF4444",
+    "success": "#10B981"
+  },
+  "typography": {
+    "heading_font": "Cabinet Grotesk, Playfair Display, or Bodoni Moda",
+    "body_font": "Inter or Manrope",
+    "scale": {
+      "h1": "text-4xl sm:text-5xl lg:text-6xl tracking-tighter font-light",
+      "h2": "text-2xl sm:text-3xl lg:text-4xl tracking-tight",
+      "h3": "text-xl sm:text-2xl tracking-tight",
+      "body": "text-base leading-relaxed text-[#111111]",
+      "small": "text-sm text-[#71717A]",
+      "overline": "text-xs uppercase tracking-[0.2em] font-medium"
+    }
+  },
+  "spacing_and_layout": {
+    "philosophy": "Generous Spacing (Apple-like), structured modular grids (Zara-like). Let the photography be the hero.",
+    "container_padding": "px-6 md:px-12 lg:px-24",
+    "product_grid": "grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-x-6 gap-y-12",
+    "edges": "rounded-none or very subtle rounded-sm for an editorial/luxury feel."
+  },
+  "components": {
+    "navbar": "Sticky at top. Glassmorphism `backdrop-blur-xl bg-white/80` or solid white with a subtle `border-b border-[#F3F4F6]`. Minimal text links centered. Icons for Search, User, Cart on the right. Hamburger for mobile.",
+    "buttons": "Primary: Solid black `#111111` background, white text, sharp edges `rounded-none`, hover state `bg-[#333333] transition-colors`. Secondary: Transparent with `border border-[#111111]`, black text, hover `bg-gray-50`.",
+    "product_card": "Image dominates. Minimalist text below (Brand, Name, Price in left-aligned stack). Hover effect: Secondary image cross-fade. Quick Add button appears on hover over image.",
+    "cart_drawer": "Slide-in from right. Clean layout. Image + Name + Size/Color + Qty controls. Fixed bottom section for Subtotal and Checkout button.",
+    "filters": "Sidebar or top accordion for Product Listing Page. Minimalist checkboxes, price slider. Sort dropdown should be clean without heavy outlines.",
+    "inputs": "Underlined inputs or fully bordered with `#F3F4F6`. Focus state `border-[#111111] ring-0`."
+  },
+  "animations": {
+    "hover": "Subtle opacity shifts or smooth image swaps on product cards. Slow, deliberate.",
+    "page_load": "Fade in and slight upward translation (`framer-motion` y: 20 to 0) for headers and staggered grid items.",
+    "interactions": "Smooth easing, Apple-like fluidity. Menus and drawers should slide elegantly."
+  },
+  "media": {
+    "instructions": "Use these exact image URLs for the respective sections to maintain the high-fashion editorial aesthetic. DO NOT use placeholder text or dummy image services.",
+    "hero_carousel": [
+      {
+        "url": "https://images.unsplash.com/photo-1771591742001-f689076a78a9?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjAzMzN8MHwxfHNlYXJjaHwyfHxoaWdoJTIwZmFzaGlvbiUyMG1vZGVsJTIwc3R1ZGlvJTIwd2hpdGUlMjBiYWNrZ3JvdW5kfGVufDB8fHx8MTc4MjQxMjQ0NHww&ixlib=rb-4.1.0&q=85",
+        "description": "Young woman in black dress, perfect for main Hero banner"
+      },
+      {
+        "url": "https://images.pexels.com/photos/27641318/pexels-photo-27641318.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        "description": "Stylish woman portrait, great for secondary hero or featured collection"
+      }
+    ],
+    "featured_collections": [
+      {
+        "url": "https://images.pexels.com/photos/31042862/pexels-photo-31042862.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        "description": "Black and white elegant portrait"
+      },
+      {
+        "url": "https://images.pexels.com/photos/11911863/pexels-photo-11911863.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        "description": "Chic fashion display"
+      }
+    ],
+    "product_grid": [
+      {
+        "url": "https://images.unsplash.com/flagged/photo-1553802922-e345434156e6?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjY2NzZ8MHwxfHNlYXJjaHwyfHxtaW5pbWFsaXN0JTIwbHV4dXJ5JTIwY2xvdGhpbmd8ZW58MHx8fHwxNzgyNDEyNDQzfDA&ixlib=rb-4.1.0&q=85",
+        "description": "Standing woman in white skirt"
+      },
+      {
+        "url": "https://images.pexels.com/photos/5418890/pexels-photo-5418890.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        "description": "Clothes hanging on rack"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1575403538007-acb790100421?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDk1Nzl8MHwxfHNlYXJjaHwzfHxtaW5pbWFsaXN0JTIwbW9kZXJuJTIwbHV4dXJ5JTIwYmFnfGVufDB8fHx8MTc4MjQxMjQ0M3ww&ixlib=rb-4.1.0&q=85",
+        "description": "Gray leather handbag"
+      },
+      {
+        "url": "https://images.pexels.com/photos/27835292/pexels-photo-27835292.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        "description": "Stylish leather handbags pastel"
+      }
+    ]
+  },
+  "testing": {
+    "attributes": "All interactive and key informational elements MUST include a `data-testid` attribute (e.g., `data-testid=\"cart-checkout-button\"`)."
+  },
+  "instructions_to_main_agent": [
+    "Prioritize optical alignment and generous whitespace. Ensure sections do not feel cramped.",
+    "Use Radix UI / Shadcn for complex interactive components (Select, Accordion, Dialog) but strip away default Vercel-like styles to match the minimalist luxury aesthetic (remove heavy borders, use pure black/white).",
+    "For the 4-column product grid, ensure responsive scaling (1 col mobile, 2 col tablet, 4 col desktop).",
+    "Implement image hover swapping natively using Tailwind group-hover on the product card container.",
+    "All interactive elements MUST have hover states (opacity change, background change, or subtle transform).",
+    "Ensure `data-testid` is added to all buttons, links, inputs, and major sections."
+  ]
+}
